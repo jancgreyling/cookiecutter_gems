@@ -16,7 +16,7 @@ seaborn
 openpyxl
 plotly
 shapely
-pydantic
+pydantic_settings
 
 scikit-learn
 
@@ -24,6 +24,9 @@ geopandas
 rasterio
 metpy
 mapclassify
+
+statsmodels
+textdistance
 
 {% if cookiecutter.python_interpreter != 'python3' %}
 
