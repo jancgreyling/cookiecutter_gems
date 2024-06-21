@@ -9,7 +9,7 @@ class Settings(BaseSettings):
     git_key: str
 
     # Path to data folder
-    filepath_data: str
+    data_products: str
 
     class Config:
         # Load environment variables from .env file
