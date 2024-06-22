@@ -11,6 +11,9 @@ class Settings(BaseSettings):
     # Path to data folder
     data_products: str
 
+    # Define the global working directory
+    project_dir: str = os.path.abspath(os.path.join(os.path.dirname(__file__)))
+
     class Config:
         # Load environment variables from .env file
         env_file = os.path.join(os.path.dirname(os.path.realpath(__file__)), '..', '.env')
